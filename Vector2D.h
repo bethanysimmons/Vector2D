@@ -1,21 +1,21 @@
 //
-//  Vector2D.h
-//  Boids
+// Vector2D.h
+// Boids
 //
-//  Created by David Nolen on 11/3/09.
-//  Copyright 2009 David Nolen. All rights reserved.
+// Created by David Nolen on 11/3/09.
+// Copyright 2009 David Nolen. All rights reserved.
 //
 
-#define kEpsilon    1.0e-6f
-#define kPI         3.1415926535897932384626433832795f
-#define kHalfPI     1.5707963267948966192313216916398f
-#define kTwoPI      2.0f*kPI
+#define kEpsilon 1.0e-6f
+#define kPI 3.1415926535897932384626433832795f
+#define kHalfPI 1.5707963267948966192313216916398f
+#define kTwoPI 2.0f*kPI
 
 @interface Vector2D : NSObject <NSCopying>
 {
 @public
-  float x;
-  float y;
+    float x;
+    float y;
 }
 
 // Class Methods
